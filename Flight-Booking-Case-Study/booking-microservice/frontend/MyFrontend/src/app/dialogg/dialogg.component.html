@@ -1,0 +1,11 @@
+<div mat-dialog-content>
+    <p>Enter Your Preferred Phone Number</p>
+    <mat-form-field appearance="fill">
+      <input matInput [(ngModel)]='loginObj.pwd' placeholder="Enter Phonenumber">
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+   
+    <button mat-button [mat-dialog-close]="loginObj.pwd" cdkFocusInitial>Submit</button>
+  </div>
+ 

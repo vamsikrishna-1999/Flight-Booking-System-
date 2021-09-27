@@ -1,0 +1,10 @@
+
+<div mat-dialog-content>
+  <p>Enter Flight Id</p>
+  <mat-form-field appearance="fill">
+    <input matInput [(ngModel)]='loginObj.pwd' placeholder="Enter Id">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="loginObj.pwd" cdkFocusInitial>Submit</button>
+</div>
