@@ -3,7 +3,6 @@ Using MongoDB,Express,Angular,Nodejs
 
 How to Run It
 
-
 Run ng serve
 
 Navigate to http://localhost:4200/
