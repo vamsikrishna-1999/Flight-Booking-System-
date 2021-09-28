@@ -2,9 +2,13 @@
 Using MongoDB,Express,Angular,Nodejs
 
 How to Run It
+
 Run ng serve.
+
 Navigate to http://localhost:4200/.
+
 The app will automatically reload if you change any of the source files.
+
 Run node filename.js to connect to mongoDB server.
 
 Code Scaffolding
